@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  padding: 20px;
+  color: white;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.nav--img {
+  height: 100%;
+  margin-right: 6px;
+}
+
+.nav--title {
+  margin-right: auto;
+  font-size: 1.25rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav--text {
+  font-size: 0.75rem;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  padding: 30px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+  border-radius: 5px;
+}
+
+.form > input {
+  text-indent: 5px;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.meme--imgclass {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.meme {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.meme--image {
+  max-height: 60vh;
+  margin: 20px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 25px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
